@@ -3,7 +3,7 @@ body {
   padding:0;
   font-family: Arial, sans-serif;
   background-color: #ffffff;
-  color: #ffffff;
+  color: #dfcbf2;
 }
 
 /* Navbar */
@@ -17,7 +17,7 @@ body {
 
 .nav-left a,
 .nav-right a {
-  color: white;
+  color: #dfcbf2;
   text-decoration: none;
   margin: 0 10px;
   font-size: 16px;
@@ -87,6 +87,7 @@ body {
 
 .about-text {
   width: 60%;
+  color:#dfcbf2;
 }
 
 .about-text h2 {
@@ -125,35 +126,105 @@ body {
 }
 
 /* Projects Section */
-.projects {
-  min-height: 100vh;
-  padding: 60px 40px;
-  background-color: #17052c;
-}
 
-.projects h2 {
-  font-size: 30px;
-  margin-bottom: 30px;
+.projects {
+  padding: 80px 20px;
+  background-color: #17052c;
   text-align: center;
 }
 
-.project-cards {
+.projects-title {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+/* Cards layout */
+
+.cards-container {
   display: flex;
-  gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 30px;
 }
+
+/* Card */
 
 .card {
-  background-color: rgb(52, 9, 96);
-  width: 250px;
-  padding: 20px;
-  border-radius: 10px;
+  width: 260px;
+  height: 260px;
+  background-color: #490a60;
+  border-radius: 8px;
 }
 
-.card h3 {
+/* Mac style dots */
+
+.tools {
+  display: flex;
+  align-items: center;
+  padding: 9px;
+}
+
+.circle {
+  padding: 0 4px;
+}
+
+.box {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: #ff605c;
+}
+
+.yellow {
+  background-color: #ffbd44;
+}
+
+.green {
+  background-color: #00ca4e;
+}
+
+/* Card Content */
+
+.card__content {
+  padding: 20px;
+  color: rgb(227, 181, 245);
+}
+
+.card__content h3 {
   margin-top: 0;
 }
+
+.card__content p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer */
 .footer {
@@ -218,3 +289,18 @@ model-viewer{
   width:100%;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
