@@ -62,9 +62,9 @@ body {
   display: inline-block;
   text-decoration: none;
   background-color: #17052c;
-  color: white;
+  color: #b97add;
   padding: 12px 22px;
-  border:1px solid white;
+  border:1px solid #b97add;
   border-radius: 6px;
   font-size: 16px;
 }
@@ -73,7 +73,9 @@ body {
 }
 
 .say-hi:hover {
-  background-color: #b97add;
+  background-color: #e8d4f4;
+  color:#17052c;
+  border:1px solid #b97add;
 }
 
 /* About Section */
@@ -102,7 +104,7 @@ body {
 }
 
 .about-image img {
-  width: 200px;
+  width: 300px;
   border-radius: 10px;
 }
 
@@ -193,4 +195,17 @@ body {
   100% {
     opacity: 1;
   }
+}
+
+
+
+
+
+
+
+li{
+  padding:5px;
+}
+ul li::marker {
+  color: #00bcd4;
 }
