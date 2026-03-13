@@ -25,7 +25,7 @@ body {
 
 .nav-left a:hover,
 .nav-right a:hover {
-  color: #b97add;
+  color: #b946fb;
 }
 
 /* Hero Section */
@@ -52,26 +52,27 @@ body {
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 20px;
+  font-size: 12px;
 }
 
 .say-hi {
   display: inline-block;
   text-decoration: none;
   background-color: #17052c;
-  color: #b97add;
+  color: #b946fb;
   padding: 12px 22px;
-  border:1px solid #b97add;
+  border:1px solid #b946fb;
   border-radius: 6px;
   font-size: 16px;
 }
 #myVikash{
-  color:#b97add;
+  color:#b946fb;
 }
 
 .say-hi:hover {
-  background-color: #e8d4f4;
+  background-color: #2e203d;
   color:#17052c;
-  border:1px solid #b97add;
+  border:1px solid #b946fb;
 }
 
 /* About Section */
@@ -250,7 +251,7 @@ body {
   display: inline-block;
   width: 3px;
   height: 1em;
-  background-color: #dfcbf2;
+  background-color: #b946fb;
   margin-left: 5px;
   animation: blink 1s infinite;
 }
