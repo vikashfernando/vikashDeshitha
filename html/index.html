@@ -1,20 +1,114 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <title>vikashdeshitha</title>
-    </head>
-    <body>
-        <header>
-            <!--this is a comment-->
-            <a href="" class="logo">Vikash</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vikash Portfolio</title>
 
-            <nav>
-                <a href="">Home1</a>
-                <a href="">Home2</a>
-                <a href="">Home3</a>
-                <a href="">Home4</a>
-            </nav>
+  <!-- Social media icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-        </header>
-    </body>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-left">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+    </div>
+
+    <div class="nav-right">
+      <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-image">
+      <img src="https://via.placeholder.com/450x250" alt="Main image">
+    </div>
+
+    <!---->
+
+    <h1 class="typing">hi, <span id="myVikash">Vikash</span> here.<span class="cursor"></span></h1>
+    
+    <!---->
+
+    <p class="intro">
+      Welcome! Currently a SWE undergraduate at the University of Westminster...Whilst you're here
+    </p>
+
+    <a href="mailto:yourmail@example.com" class="say-hi">
+      <i class="fas fa-envelope"></i> Say Hi
+    </a>
+  </section>
+
+  <!-- About Me Section -->
+  <section class="about" id="about">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        I am Vikash Fernando, and I enjoy learning web development step by step.
+        I am currently improving my HTML and CSS skills by creating personal projects
+        and portfolio websites. I like simple designs and clean layouts.
+      </p>
+    </div>
+
+    <div class="about-image">
+      <img src="https://via.placeholder.com/200" alt="My photo">
+    </div>
+  </section>
+
+  <!-- Education / Experience Section -->
+  <section class="education" id="experience">
+    <h2>Education</h2>
+
+    <div class="edu-box">
+      <h3>University / School Name</h3>
+      <p>Degree or Course Name</p>
+      <p>2022 - 2026</p>
+    </div>
+
+    <div class="edu-box">
+      <h3>Another School / Institute</h3>
+      <p>Relevant Studies</p>
+      <p>2020 - 2022</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <h2>Pet Projects</h2>
+
+    <div class="project-cards">
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>A simple personal portfolio website made using HTML and CSS.</p>
+      </div>
+
+      <div class="card">
+        <h3>Landing Page</h3>
+        <p>A beginner landing page project with a clean and simple layout.</p>
+      </div>
+
+      <div class="card">
+        <h3>Mini Web Project</h3>
+        <p>A small practice project to improve my frontend skills.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Built and designed by Vikash Fernando</p>
+    <p>All rights reserved</p>
+  </footer>
+
+</body>
 </html>
