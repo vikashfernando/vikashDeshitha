@@ -20,7 +20,7 @@ body {
   color: #dfcbf2;
   text-decoration: none;
   margin: 0 10px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .nav-left a:hover,
@@ -52,7 +52,7 @@ body {
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 20px;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .say-hi {
