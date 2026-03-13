@@ -154,6 +154,7 @@ body {
   height: 260px;
   background-color: #490a60;
   border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Mac style dots */
@@ -211,6 +212,11 @@ body {
   gap: 40px;
   max-width: 900px;
   margin: auto;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -274,7 +280,7 @@ li{
   padding:5px;
 }
 ul li::marker {
-  color: #00bcd4;
+  color: #db78f1;
 }
 
 
